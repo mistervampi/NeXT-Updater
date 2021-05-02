@@ -34,10 +34,10 @@ void refreshScreen(char loaded)
 
       //drawText(fntMedium, 120, 225, SDL_GetColour(white), "Menu Here"); // menu options
       drawButton(appFonts.fntButton, BUTTON_A, 970, 672, SDL_GetColour(white));
-      drawText(appFonts.fntSmall, 1010, 675, SDL_GetColour(white), "Selecc");
+      drawText(appFonts.fntSmall, 1010, 675, SDL_GetColour(white), "Select");
 
       drawButton(appFonts.fntButton, BUTTON_PLUS, 1145, 672, SDL_GetColour(white));
-      drawText(appFonts.fntSmall, 1185, 675, SDL_GetColour(white), "Salir");
+      drawText(appFonts.fntSmall, 1185, 675, SDL_GetColour(white), "Exit");
     }
 }
 

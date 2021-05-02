@@ -19,7 +19,7 @@ int unzip(const char *output, int mode)
     for (int i = 0; i < gi.number_entry; i++)
     {
         printOptionList(mode);
-        popUpBox(appFonts.fntSmall, 350, 250, SDL_GetColour(white), "Descomprimiendo...");
+        popUpBox(appFonts.fntSmall, 350, 250, SDL_GetColour(white), "Extracting...");
 
         char filename_inzip[MAXFILENAME];
         unz_file_info file_info;
